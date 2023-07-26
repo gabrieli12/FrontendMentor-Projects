@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+body{
+    height: 100vh;
+    font-family: 'Roboto';
+    background-color: rgb(1, 1, 22);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* მთლიანი კონტაინერი */
+.container{
+    position: relative;
+    margin: 20px;
+    display: flex;
+    background-color: rgb(8, 4, 51);
+    max-width: 50rem;
+    border-radius: 10px;
+}
+/* მარცხენა მხარეს განლაგებული ტექსტი */
+.all-txt{
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+}
+/* სურათი */
+img{
+    width: 28rem;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-image: url(/stats-preview-card-component-main/images/image-header-desktop.jpg) no-repeat;
+    background-color: rgba(173, 0, 0, 0.5);
+}
+/* სათაური */
+.title{
+    margin: 5px;
+    padding: 5px;
+    width: 500px;
+}
+.insights{
+    color: rgb(188, 7, 220);
+}
+
+/* ტექსტი */
+
+.text{
+    margin: 5px;
+    padding: 5px;
+    line-height: 1.5rem;
+    color: rgb(174, 177, 180);
+    font-size: 0.9rem;
+}
+
+.div{
+    position: relative;
+    margin: 20px;
+    top: 20px;
+    padding: 20px;
+    display: flex;
+    font-weight: bold;
+    font-size: 1.2rem;
+    
+}
+#txt{
+    font-size: 1rem;
+    letter-spacing: 2px;
+    font-size: 0.6rem;
+    color: rgb(174, 177, 180);
+}
+.attribution a{
+    color: rgb(188, 7, 220);
+}
